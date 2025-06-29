@@ -1,0 +1,10 @@
+^D:\MYPROJECTS\FLASH_SALE\BUILD\CMAKEFILES\659B0B67D23F786C61F8AD14467FB7FB\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/MyProjects/flash_sale -BD:/MyProjects/flash_sale/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MyProjects/flash_sale/build/FlashSale.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+D:/MyProjects/flash_sale/build/CMakeFiles/flash_sale.dir
+D:/MyProjects/flash_sale/build/CMakeFiles/ALL_BUILD.dir
+D:/MyProjects/flash_sale/build/CMakeFiles/ZERO_CHECK.dir
